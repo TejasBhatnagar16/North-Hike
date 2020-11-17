@@ -173,5 +173,3 @@ with open('/Users/tejas/Desktop/semester 2/hike data /pub10.out', 'r', encoding=
     output = out.readlines()
     output = output[0].strip()
 print(output == output_prog, output_prog, '|', output, 'time taken', t2-t1)
-# print(hike('/Users/tejas/Desktop/semester 2/hike data /pub01.in'))
-# print(hike('/Users/tejas/Desktop/semester 2/hike data /pub02.in'))
